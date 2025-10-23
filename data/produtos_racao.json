@@ -1,0 +1,85 @@
+{
+  "descricao": "Database de produtos de ração para sistema de arraçoamento",
+  "versao": "1.1",
+  "ultima_atualizacao": "2025-10-23",
+  "notas": "Altere os dados conforme necessário. As semanas_inicio e semanas_fim definem o período de utilização de cada produto",
+  
+  "configuracoes": [
+    {
+      "id": 1,
+      "semanas_inicio": 1,
+      "semanas_fim": 1,
+      "produto": "NUTRIPISCIS STARTER 45 0.8 A 1.0 MM",
+      "proteina": 45,
+      "granulometria": "0.8 A 1.0 MM",
+      "preco": 150.00,
+      "observacao": "Fase Inicial"
+    },
+    {
+      "id": 2,
+      "semanas_inicio": 2,
+      "semanas_fim": 5,
+      "produto": "NUTRIPISCIS AL 45 2 A 3 MM",
+      "proteina": 45,
+      "granulometria": "2 A 3 MM",
+      "preco": 140.00,
+      "observacao": "Segunda semana até Quinta Semana"
+    },
+    {
+      "id": 3,
+      "semanas_inicio": 6,
+      "semanas_fim": 13,
+      "produto": "NUTRILIPSCIS TR 32 T 4 A 6 MM",
+      "proteina": 32,
+      "granulometria": "4 A 6 MM",
+      "preco": 145.00,
+      "observacao": "Ciclo de 2 meses"
+    },
+    {
+      "id": 4,
+      "semanas_inicio": 14,
+      "semanas_fim": 28,
+      "produto": "NUTRILIPSCIS TR 32 T 6 A 8 MM",
+      "proteina": 32,
+      "granulometria": "6 A 8 MM",
+      "preco": 120.00,
+      "observacao": "Ciclo de 4 meses"
+    },
+    {
+      "id": 5,
+      "semanas_inicio": 29,
+      "semanas_fim": 57,
+      "produto": "NUTRILIPSCIS TR 32 6 A 8 MM",
+      "proteina": 32,
+      "granulometria": "6 A 8 MM",
+      "preco": 125.00,
+      "observacao": "Ciclo de 7 meses"
+    }
+  ],
+
+  "guia_manutencao": {
+    "adicionar_novo_registro": [
+      "1. Incremente o 'id' (último ID + 1)",
+      "2. Defina 'semanas_inicio' e 'semanas_fim' conforme o período",
+      "3. Preencha 'produto', 'proteina', 'granulometria'",
+      "4. Atualize 'preco' conforme necessário",
+      "5. Adicione uma 'observacao' descritiva",
+      "6. Atualize 'ultima_atualizacao' com a data atual"
+    ],
+    "alterar_periodo_existente": [
+      "Localize o registro pelo 'id'",
+      "Modifique 'semanas_inicio' e/ou 'semanas_fim'",
+      "Certifique-se de não haver conflitos de períodos"
+    ],
+    "exemplo_adicionar": {
+      "id": 8,
+      "semanas_inicio": 58,
+      "semanas_fim": 75,
+      "produto": "NUTRIPISCIS TERMINAÇÃO 22 12 MM",
+      "proteina": 22,
+      "granulometria": "12 MM",
+      "preco": 105.00,
+      "observacao": "Nova fase de terminação - Semanas 58 a 75"
+    }
+  }
+}

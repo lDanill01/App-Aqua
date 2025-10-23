@@ -1,0 +1,174 @@
+# Ambiente Virtual Python
+venv/
+env/
+ENV/
+.venv
+venv.bak/
+env.bak/
+*.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Streamlit
+.streamlit/
+.streamlit_cache/
+.streamlit_cache2/
+streamlit_config.toml
+
+# IDE e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.vim/
+.emacs.d/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários
+*.tmp
+*.temp
+.tmp/
+*.bak
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+*.tmp
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.*.local
+config_local.json
+local_settings.py
+
+# Cache
+.cache/
+*.cache
+.pytest_cache/
+.hypothesis/
+
+# Testes
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Dados sensíveis
+secrets/
+credentials/
+*.pem
+*.key
+
+# Arquivos do usuário
+uploads/
+temp/
+output/
+
+# IDEs específicas
+.idea/
+.vscode/settings.json
+*.iml
+.gradle
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Node (se usar npm/yarn)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Package managers
+.pip-cache/
+Pipfile.lock
+
+# Diretórios de dados
+data/tabela_consulta.json
+data/backup/
+
+# Arquivos gerados
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Mac
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Rope
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Arquivos de estado da aplicação
+*.state
+.session/
